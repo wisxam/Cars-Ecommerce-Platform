@@ -1,0 +1,51 @@
+.form-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: gainsboro;
+  align-items: center;
+}
+
+
+.login-form {
+  margin-bottom: 200px;
+  width: 870px;
+  padding: 2rem;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+}
+.select-group{
+  width: 300px;
+}
+.textField-group{
+  width: 800px;
+}
+/*
+.login-form h2 {
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.login-form .form-control {
+  border-radius: 20px;
+}
+
+.login-form button {
+  border-radius: 20px;
+} 
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  color: #4cceac;
+} */
+
+
+
+.text {
+  margin-left: 10px;
+  /* Add any additional styles for the text, such as font weight or color */
+}

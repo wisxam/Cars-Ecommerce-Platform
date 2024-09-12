@@ -1,0 +1,35 @@
+.message {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    padding: 15px 20px;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+  .message p {
+    color: #fff;
+    font-size: large;
+  }
+  
+  .message.success {
+    width: 500px;
+    background-color: red;
+    color: #ffffff;
+  }
+  
+  .message.error {
+    background-color: #f44336;
+    color: #ffffff;
+  }
+  
+  .message .close-button {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+  }
+  
